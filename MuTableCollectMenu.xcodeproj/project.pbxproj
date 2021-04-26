@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D52C3C26355CB500877E17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C3B26355CB500877E17 /* AppDelegate.m */; };
+		42D52C3F26355CB500877E17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C3E26355CB500877E17 /* SceneDelegate.m */; };
+		42D52C4226355CB500877E17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C4126355CB500877E17 /* ViewController.m */; };
+		42D52C4526355CB500877E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D52C4326355CB500877E17 /* Main.storyboard */; };
+		42D52C4726355CB900877E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D52C4626355CB900877E17 /* Assets.xcassets */; };
+		42D52C4A26355CBA00877E17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D52C4826355CBA00877E17 /* LaunchScreen.storyboard */; };
+		42D52C4D26355CBA00877E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C4C26355CBA00877E17 /* main.m */; };
+		42D52C5726355CBB00877E17 /* MuTableCollectMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C5626355CBB00877E17 /* MuTableCollectMenuTests.m */; };
+		42D52C6226355CBB00877E17 /* MuTableCollectMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C6126355CBB00877E17 /* MuTableCollectMenuUITests.m */; };
+		42D52C7526355D8800877E17 /* MultilevelMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C7426355D8800877E17 /* MultilevelMenu.m */; };
+		42D52C7D2635605600877E17 /* MultilevelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D52C7A2635605600877E17 /* MultilevelTableViewCell.xib */; };
+		42D52C7E2635605600877E17 /* MultilevelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C7C2635605600877E17 /* MultilevelTableViewCell.m */; };
+		42D52C872635628700877E17 /* CollectviewChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C862635628700877E17 /* CollectviewChooseCell.m */; };
+		42D52C952635675300877E17 /* ProductCateFilteHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C942635675300877E17 /* ProductCateFilteHeaderView.m */; };
+		42D52C9C263567F000877E17 /* NSString+hAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D52C9B263567F000877E17 /* NSString+hAdd.m */; };
+		5EFC1B80B1085D5FC946B515 /* libPods-MuTableCollectMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4581D9C2458E061DC3E0822 /* libPods-MuTableCollectMenu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42D52C5326355CBA00877E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D52C2F26355CB500877E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D52C3626355CB500877E17;
+			remoteInfo = MuTableCollectMenu;
+		};
+		42D52C5E26355CBB00877E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D52C2F26355CB500877E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D52C3626355CB500877E17;
+			remoteInfo = MuTableCollectMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42D52C3726355CB500877E17 /* MuTableCollectMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuTableCollectMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D52C3A26355CB500877E17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42D52C3B26355CB500877E17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42D52C3D26355CB500877E17 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		42D52C3E26355CB500877E17 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		42D52C4026355CB500877E17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42D52C4126355CB500877E17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42D52C4426355CB500877E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42D52C4626355CB900877E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42D52C4926355CBA00877E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42D52C4B26355CBA00877E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D52C4C26355CBA00877E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42D52C5226355CBA00877E17 /* MuTableCollectMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuTableCollectMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D52C5626355CBB00877E17 /* MuTableCollectMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuTableCollectMenuTests.m; sourceTree = "<group>"; };
+		42D52C5826355CBB00877E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D52C5D26355CBB00877E17 /* MuTableCollectMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuTableCollectMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D52C6126355CBB00877E17 /* MuTableCollectMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuTableCollectMenuUITests.m; sourceTree = "<group>"; };
+		42D52C6326355CBB00877E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D52C7326355D8800877E17 /* MultilevelMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultilevelMenu.h; sourceTree = "<group>"; };
+		42D52C7426355D8800877E17 /* MultilevelMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultilevelMenu.m; sourceTree = "<group>"; };
+		42D52C7A2635605600877E17 /* MultilevelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultilevelTableViewCell.xib; sourceTree = "<group>"; };
+		42D52C7B2635605600877E17 /* MultilevelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultilevelTableViewCell.h; sourceTree = "<group>"; };
+		42D52C7C2635605600877E17 /* MultilevelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultilevelTableViewCell.m; sourceTree = "<group>"; };
+		42D52C852635628700877E17 /* CollectviewChooseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectviewChooseCell.h; path = MuTableCollectMenu/MuCellView/CollectviewChooseCell.h; sourceTree = SOURCE_ROOT; };
+		42D52C862635628700877E17 /* CollectviewChooseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectviewChooseCell.m; path = MuTableCollectMenu/MuCellView/CollectviewChooseCell.m; sourceTree = SOURCE_ROOT; };
+		42D52C932635675300877E17 /* ProductCateFilteHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductCateFilteHeaderView.h; path = MuTableCollectMenu/MuCellView/ProductCateFilteHeaderView.h; sourceTree = SOURCE_ROOT; };
+		42D52C942635675300877E17 /* ProductCateFilteHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductCateFilteHeaderView.m; path = MuTableCollectMenu/MuCellView/ProductCateFilteHeaderView.m; sourceTree = SOURCE_ROOT; };
+		42D52C9A263567F000877E17 /* NSString+hAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hAdd.h"; sourceTree = "<group>"; };
+		42D52C9B263567F000877E17 /* NSString+hAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hAdd.m"; sourceTree = "<group>"; };
+		679FBA5C3AAF4B0D566C298D /* Pods-MuTableCollectMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuTableCollectMenu.debug.xcconfig"; path = "Target Support Files/Pods-MuTableCollectMenu/Pods-MuTableCollectMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		D26BFDF2F3051DBD96781D4C /* Pods-MuTableCollectMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuTableCollectMenu.release.xcconfig"; path = "Target Support Files/Pods-MuTableCollectMenu/Pods-MuTableCollectMenu.release.xcconfig"; sourceTree = "<group>"; };
+		F4581D9C2458E061DC3E0822 /* libPods-MuTableCollectMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MuTableCollectMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D52C3426355CB500877E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFC1B80B1085D5FC946B515 /* libPods-MuTableCollectMenu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D52C4F26355CBA00877E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D52C5A26355CBB00877E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D52C2E26355CB500877E17 = {
+			isa = PBXGroup;
+			children = (
+				42D52C3926355CB500877E17 /* MuTableCollectMenu */,
+				42D52C5526355CBA00877E17 /* MuTableCollectMenuTests */,
+				42D52C6026355CBB00877E17 /* MuTableCollectMenuUITests */,
+				42D52C3826355CB500877E17 /* Products */,
+				848ACF45D30AECE08042A70B /* Pods */,
+				9843ABA708A71A8105C37882 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42D52C3826355CB500877E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D52C3726355CB500877E17 /* MuTableCollectMenu.app */,
+				42D52C5226355CBA00877E17 /* MuTableCollectMenuTests.xctest */,
+				42D52C5D26355CBB00877E17 /* MuTableCollectMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D52C3926355CB500877E17 /* MuTableCollectMenu */ = {
+			isa = PBXGroup;
+			children = (
+				42D52C99263567F000877E17 /* Extension */,
+				42D52C792635605600877E17 /* MuCellView */,
+				42D52C7226355D2F00877E17 /* MuMenuView */,
+				42D52C3A26355CB500877E17 /* AppDelegate.h */,
+				42D52C3B26355CB500877E17 /* AppDelegate.m */,
+				42D52C3D26355CB500877E17 /* SceneDelegate.h */,
+				42D52C3E26355CB500877E17 /* SceneDelegate.m */,
+				42D52C4026355CB500877E17 /* ViewController.h */,
+				42D52C4126355CB500877E17 /* ViewController.m */,
+				42D52C4326355CB500877E17 /* Main.storyboard */,
+				42D52C4626355CB900877E17 /* Assets.xcassets */,
+				42D52C4826355CBA00877E17 /* LaunchScreen.storyboard */,
+				42D52C4B26355CBA00877E17 /* Info.plist */,
+				42D52C4C26355CBA00877E17 /* main.m */,
+			);
+			path = MuTableCollectMenu;
+			sourceTree = "<group>";
+		};
+		42D52C5526355CBA00877E17 /* MuTableCollectMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				42D52C5626355CBB00877E17 /* MuTableCollectMenuTests.m */,
+				42D52C5826355CBB00877E17 /* Info.plist */,
+			);
+			path = MuTableCollectMenuTests;
+			sourceTree = "<group>";
+		};
+		42D52C6026355CBB00877E17 /* MuTableCollectMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42D52C6126355CBB00877E17 /* MuTableCollectMenuUITests.m */,
+				42D52C6326355CBB00877E17 /* Info.plist */,
+			);
+			path = MuTableCollectMenuUITests;
+			sourceTree = "<group>";
+		};
+		42D52C7226355D2F00877E17 /* MuMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				42D52C932635675300877E17 /* ProductCateFilteHeaderView.h */,
+				42D52C942635675300877E17 /* ProductCateFilteHeaderView.m */,
+				42D52C7326355D8800877E17 /* MultilevelMenu.h */,
+				42D52C7426355D8800877E17 /* MultilevelMenu.m */,
+				42D52C852635628700877E17 /* CollectviewChooseCell.h */,
+				42D52C862635628700877E17 /* CollectviewChooseCell.m */,
+			);
+			path = MuMenuView;
+			sourceTree = "<group>";
+		};
+		42D52C792635605600877E17 /* MuCellView */ = {
+			isa = PBXGroup;
+			children = (
+				42D52C7B2635605600877E17 /* MultilevelTableViewCell.h */,
+				42D52C7C2635605600877E17 /* MultilevelTableViewCell.m */,
+				42D52C7A2635605600877E17 /* MultilevelTableViewCell.xib */,
+			);
+			path = MuCellView;
+			sourceTree = "<group>";
+		};
+		42D52C99263567F000877E17 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42D52C9A263567F000877E17 /* NSString+hAdd.h */,
+				42D52C9B263567F000877E17 /* NSString+hAdd.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		848ACF45D30AECE08042A70B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				679FBA5C3AAF4B0D566C298D /* Pods-MuTableCollectMenu.debug.xcconfig */,
+				D26BFDF2F3051DBD96781D4C /* Pods-MuTableCollectMenu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9843ABA708A71A8105C37882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4581D9C2458E061DC3E0822 /* libPods-MuTableCollectMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D52C3626355CB500877E17 /* MuTableCollectMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D52C6626355CBB00877E17 /* Build configuration list for PBXNativeTarget "MuTableCollectMenu" */;
+			buildPhases = (
+				0EBB403CA22678217E38DF73 /* [CP] Check Pods Manifest.lock */,
+				42D52C3326355CB500877E17 /* Sources */,
+				42D52C3426355CB500877E17 /* Frameworks */,
+				42D52C3526355CB500877E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuTableCollectMenu;
+			productName = MuTableCollectMenu;
+			productReference = 42D52C3726355CB500877E17 /* MuTableCollectMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42D52C5126355CBA00877E17 /* MuTableCollectMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D52C6926355CBB00877E17 /* Build configuration list for PBXNativeTarget "MuTableCollectMenuTests" */;
+			buildPhases = (
+				42D52C4E26355CBA00877E17 /* Sources */,
+				42D52C4F26355CBA00877E17 /* Frameworks */,
+				42D52C5026355CBA00877E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D52C5426355CBA00877E17 /* PBXTargetDependency */,
+			);
+			name = MuTableCollectMenuTests;
+			productName = MuTableCollectMenuTests;
+			productReference = 42D52C5226355CBA00877E17 /* MuTableCollectMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42D52C5C26355CBB00877E17 /* MuTableCollectMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D52C6C26355CBB00877E17 /* Build configuration list for PBXNativeTarget "MuTableCollectMenuUITests" */;
+			buildPhases = (
+				42D52C5926355CBB00877E17 /* Sources */,
+				42D52C5A26355CBB00877E17 /* Frameworks */,
+				42D52C5B26355CBB00877E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D52C5F26355CBB00877E17 /* PBXTargetDependency */,
+			);
+			name = MuTableCollectMenuUITests;
+			productName = MuTableCollectMenuUITests;
+			productReference = 42D52C5D26355CBB00877E17 /* MuTableCollectMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D52C2F26355CB500877E17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					42D52C3626355CB500877E17 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					42D52C5126355CBA00877E17 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 42D52C3626355CB500877E17;
+					};
+					42D52C5C26355CBB00877E17 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 42D52C3626355CB500877E17;
+					};
+				};
+			};
+			buildConfigurationList = 42D52C3226355CB500877E17 /* Build configuration list for PBXProject "MuTableCollectMenu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42D52C2E26355CB500877E17;
+			productRefGroup = 42D52C3826355CB500877E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D52C3626355CB500877E17 /* MuTableCollectMenu */,
+				42D52C5126355CBA00877E17 /* MuTableCollectMenuTests */,
+				42D52C5C26355CBB00877E17 /* MuTableCollectMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D52C3526355CB500877E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D52C4A26355CBA00877E17 /* LaunchScreen.storyboard in Resources */,
+				42D52C4726355CB900877E17 /* Assets.xcassets in Resources */,
+				42D52C7D2635605600877E17 /* MultilevelTableViewCell.xib in Resources */,
+				42D52C4526355CB500877E17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D52C5026355CBA00877E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D52C5B26355CBB00877E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EBB403CA22678217E38DF73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuTableCollectMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D52C3326355CB500877E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D52C7E2635605600877E17 /* MultilevelTableViewCell.m in Sources */,
+				42D52C4226355CB500877E17 /* ViewController.m in Sources */,
+				42D52C3C26355CB500877E17 /* AppDelegate.m in Sources */,
+				42D52C7526355D8800877E17 /* MultilevelMenu.m in Sources */,
+				42D52C9C263567F000877E17 /* NSString+hAdd.m in Sources */,
+				42D52C4D26355CBA00877E17 /* main.m in Sources */,
+				42D52C952635675300877E17 /* ProductCateFilteHeaderView.m in Sources */,
+				42D52C3F26355CB500877E17 /* SceneDelegate.m in Sources */,
+				42D52C872635628700877E17 /* CollectviewChooseCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D52C4E26355CBA00877E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D52C5726355CBB00877E17 /* MuTableCollectMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D52C5926355CBB00877E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D52C6226355CBB00877E17 /* MuTableCollectMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42D52C5426355CBA00877E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D52C3626355CB500877E17 /* MuTableCollectMenu */;
+			targetProxy = 42D52C5326355CBA00877E17 /* PBXContainerItemProxy */;
+		};
+		42D52C5F26355CBB00877E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D52C3626355CB500877E17 /* MuTableCollectMenu */;
+			targetProxy = 42D52C5E26355CBB00877E17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42D52C4326355CB500877E17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D52C4426355CB500877E17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42D52C4826355CBA00877E17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D52C4926355CBA00877E17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D52C6426355CBB00877E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42D52C6526355CBB00877E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42D52C6726355CBB00877E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679FBA5C3AAF4B0D566C298D /* Pods-MuTableCollectMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU25QED34X;
+				INFOPLIST_FILE = MuTableCollectMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adsale.exh.ChinaPlas.MuTableCollectMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42D52C6826355CBB00877E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26BFDF2F3051DBD96781D4C /* Pods-MuTableCollectMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU25QED34X;
+				INFOPLIST_FILE = MuTableCollectMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adsale.exh.ChinaPlas.MuTableCollectMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42D52C6A26355CBB00877E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU25QED34X;
+				INFOPLIST_FILE = MuTableCollectMenuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adsale.exh.ChinaPlas.MuTableCollectMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuTableCollectMenu.app/MuTableCollectMenu";
+			};
+			name = Debug;
+		};
+		42D52C6B26355CBB00877E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU25QED34X;
+				INFOPLIST_FILE = MuTableCollectMenuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adsale.exh.ChinaPlas.MuTableCollectMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuTableCollectMenu.app/MuTableCollectMenu";
+			};
+			name = Release;
+		};
+		42D52C6D26355CBB00877E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU25QED34X;
+				INFOPLIST_FILE = MuTableCollectMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adsale.exh.ChinaPlas.MuTableCollectMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuTableCollectMenu;
+			};
+			name = Debug;
+		};
+		42D52C6E26355CBB00877E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU25QED34X;
+				INFOPLIST_FILE = MuTableCollectMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adsale.exh.ChinaPlas.MuTableCollectMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuTableCollectMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D52C3226355CB500877E17 /* Build configuration list for PBXProject "MuTableCollectMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D52C6426355CBB00877E17 /* Debug */,
+				42D52C6526355CBB00877E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D52C6626355CBB00877E17 /* Build configuration list for PBXNativeTarget "MuTableCollectMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D52C6726355CBB00877E17 /* Debug */,
+				42D52C6826355CBB00877E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D52C6926355CBB00877E17 /* Build configuration list for PBXNativeTarget "MuTableCollectMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D52C6A26355CBB00877E17 /* Debug */,
+				42D52C6B26355CBB00877E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D52C6C26355CBB00877E17 /* Build configuration list for PBXNativeTarget "MuTableCollectMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D52C6D26355CBB00877E17 /* Debug */,
+				42D52C6E26355CBB00877E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D52C2F26355CB500877E17 /* Project object */;
+}
